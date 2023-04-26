@@ -48,5 +48,5 @@ def generate_rephrased_ptrees(ptree: ParentedTree, limit: int = 20) -> list[Pare
     return rephrased_ptrees
 
 
-def convert_ptree_to_str(ptree: ParentedTree):
+def convert_ptree_to_str(ptree: ParentedTree) -> str:
     return " ".join(str(ptree).split())
