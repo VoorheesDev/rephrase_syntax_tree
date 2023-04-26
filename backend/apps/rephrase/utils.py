@@ -6,7 +6,7 @@ from nltk.tree import ParentedTree, Tree
 NP = "NP"
 
 
-def make_ptree(s):
+def make_ptree(s: str) -> ParentedTree:
     return ParentedTree.convert(Tree.fromstring(s))
 
 
